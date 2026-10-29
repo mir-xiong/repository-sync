@@ -64,7 +64,12 @@ make test       # 后端 pytest，以及前端测试和主题校验
 
 - `backend/`：FastAPI 接口，依赖由 uv 管理
 - `frontend/`：Vite 和 React 界面
+- `deploy/`：Docker Compose 部署文件，用法见 [deploy/README.md](deploy/README.md)
 - `data/`：运行后生成，不进入 Git
 - `docs/`：功能、架构和需求说明
+
+## Docker 部署
+
+在 `deploy` 目录把 `.env.example` 复制为 `.env`，修改管理员密码后执行 `docker compose up -d --build`。浏览器打开 `http://127.0.0.1:8080`。卷、代理和重置密码见 [deploy/README.md](deploy/README.md)。
 
 更细的行为见 [docs/功能说明.md](docs/功能说明.md)，模块划分见 [docs/架构说明.md](docs/架构说明.md)。

@@ -1,0 +1,17 @@
+.git
+.env
+deploy/.env
+data
+test-data
+backend/.venv
+frontend/node_modules
+frontend/dist
+frontend/.npm-cache
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/*.py[cod]
+**/*.db
+**/*.db-shm
+**/*.db-wal
+.DS_Store
