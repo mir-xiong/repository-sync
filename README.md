@@ -73,3 +73,9 @@ make test       # 后端 pytest，以及前端测试和主题校验
 在 `deploy` 目录把 `.env.example` 复制为 `.env`，修改管理员密码后执行 `docker compose up -d --build`。浏览器打开 `http://127.0.0.1:8080`。卷、代理和重置密码见 [deploy/README.md](deploy/README.md)。
 
 更细的行为见 [docs/功能说明.md](docs/功能说明.md)，模块划分见 [docs/架构说明.md](docs/架构说明.md)。
+
+## 许可证
+
+Copyright 2026 mirxiong
+
+本项目采用 [Apache License 2.0](LICENSE)。主题预设的来源和同一许可证见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。

@@ -1,6 +1,8 @@
 # 第三方声明
 
-本项目的界面主题预设来自 [tweakcn](https://github.com/jnsahaj/tweakcn)，采用 Apache License 2.0。
+本项目采用 Apache License 2.0，全文见仓库根目录的 `LICENSE`，版权归 mirxiong。
+
+界面主题预设来自 [tweakcn](https://github.com/jnsahaj/tweakcn)，同样采用 Apache License 2.0。
 
 - 仓库：https://github.com/jnsahaj/tweakcn
 - 固定提交：`a3b47b37cba97dd637de517aab52c45ec0f83456`
